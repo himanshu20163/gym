@@ -1,0 +1,686 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+.containerOne {
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+}
+
+.containerOneTop {
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.containerOneTopBetween {
+    height: 80%;
+    width: 90%;
+    border: 2px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    padding-left: 200px;
+    background-color: white;
+    opacity: 1;
+    box-shadow: 2px 2px;
+}
+.containerOneTop i{
+    font-size: 2rem;
+    padding-left: 150px;
+}
+.containerOneBottom {
+    height:90%;
+    width: 100%;
+    /* border: 10px solid blue; */
+    display: flex;
+    flex-direction: row;
+}
+.containerOneBottomLeft{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+    position: relative;
+}
+.containerOneBottomLeft p{
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    background-color: #FED233;
+    opacity: 0.6;
+    filter: blur(162px);
+    position: absolute;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+.leftArrow{
+    position: absolute;
+    left: 60%;
+    top: 20%;
+}
+.leftPic{
+ padding-top: 280px;
+ padding-left:25%;
+ padding-right: 110px;
+ padding-bottom: 40px;
+/* margin-top: 150px; */
+}
+.containerOneBottomMiddle{
+    height: 100%;
+    width: 40%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerOneBottomMiddleHead1{
+    position: absolute;
+    top: 120px;
+       font-size: 40px;
+       font-style: italic;
+       font-weight: 700;
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.containerOneBottomMiddle img{
+ position: absolute;
+ height:550px;
+ width:550px;
+ top: 300px;
+}
+.containerOneBottomRight{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-end;
+    position: relative;
+}
+.containerOneBottomRight p{
+       height: 445px;
+       width: 445px;
+       position: absolute;
+       background-color: #FED233;
+       opacity: 0.6;
+       filter: blur(277px);
+}
+.rightArrow{
+       position: absolute;
+       width: 15%;
+       height: 10%;
+       right: 60%;
+       top: 20%;
+    
+       
+}
+.rightPic{
+height:85%;
+width: 100%;
+padding-top: 50%;
+padding-right: 25%;
+}
+
+.containerTwo {
+    height: 100vh;
+    width: 100vw;
+    /* border: 5px solid black; */
+    position: relative;
+}
+.para2{
+    height: 75%;
+    width: 25%;
+    background-color: #FED233;
+    position: absolute;
+    top:0;
+    right: 0;   
+}
+.containerTwoHead1{
+    position: absolute;
+    left: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.containerTwoHead2{
+    position: absolute;
+    font-size: 30px;
+    top: 80px;
+    left: 50px;
+    color: #5A5A5A;
+}
+.containerTwoHead3{
+    position: absolute;
+    font-size: 24px;
+    top: 300px;
+    left: 50px; 
+    /* color: #5A5A5A; */
+}
+.containerTwoButton{
+    position: absolute;
+    left: 50px;
+    bottom: 80px;
+    height: 50px;
+    width: 170px;
+    background-color: #5A5A5A;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.containerTwo img{
+    position: absolute;
+     bottom: 80px;
+     right: 100px;
+}
+
+.containerThree{
+    height: 100vh;
+    width: 100vw;
+    /* border: 5px solid blue; */
+    position: relative;
+}
+.containerThreeHead1{
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    position: absolute;
+    left: 50px;
+}
+.containerThreeHead2{
+    font-size: 30px;
+    color:#5A5A5A;
+    position: absolute;
+    top: 100px;
+    font-weight: 300;
+    left: 50px;
+}
+.containerThreePara1{
+    height: 500px;
+    width: 700px;
+    background-color: #FED233;
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+}
+.containerThreeImg1{
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    bottom: 140px;
+    left: 70px;
+}
+.containerThreeList{
+     position: absolute;
+     left: 900px;
+     top: 320px;
+     font-size: 20px;
+}
+.containerThreeButton{
+      position: absolute;
+      left: 900px;
+      top: 700px;
+      height: 40px;
+      width: 150px;
+      background-color: #454545;
+      color: #FFFFFF;
+      font-size: 20px;
+}
+.containerFour {
+    height: 100vh;
+    width: 100vw;
+    /* border: 5px solid rgb(241, 76, 76); */
+    position: relative;
+}
+.containerFourHead1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left: 50px;
+    font-style: italic;   
+}
+.containerFourHead2{
+    position: absolute;
+    font-size: 30px;
+    top: 70px;
+    left: 50px;
+    color: #5A5A5A;
+}
+.para3{
+    height: 55%;
+    width: 25%;
+    background-color: #FED233;
+    position: absolute;
+    right: 0;
+    top: 140px;
+}
+
+.img1{
+    height: 600px;
+    width: 800px;
+    position: absolute;
+    right: 80px;
+    bottom: 80px;
+}
+.img2{
+    position: absolute;
+    top: 300px;
+    height: 90px;
+    width: 80px;
+    left: 50px;
+}
+.img2H{
+    position: absolute;
+    left: 180px;
+    top: 300px;
+    font-size: 25px;
+    
+}
+.img2P{
+    position: absolute;
+    left: 180px;
+    top: 345px;
+    font-size: 20px;
+}
+.img3{
+    position: absolute;
+    top: 475px;
+    height: 90px;
+    width: 80px;
+    left: 50px;
+}
+.img3H{
+    position: absolute;
+    left: 180px;
+    top: 475px;
+    font-size: 25px;
+}
+.img3P{
+    position: absolute;
+    left: 180px;
+    top: 525px;
+    font-size: 20px;
+}
+.img4{
+    position: absolute;
+    top: 650px;
+    height: 90px;
+    width: 80px;
+    left: 50px;
+}
+.img4H{
+    position: absolute;
+    left: 180px;
+    top: 650px;
+    font-size: 25px;
+}
+.img4P{
+    position: absolute;
+    left: 180px;
+    top: 690px;
+    font-size: 20px;
+}
+.containerFive{
+    height: 100vh;
+    width: 100vw;
+    /* border: 5px solid blue; */
+    position: relative;
+}
+.containerFiveHead1{
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    position: absolute;
+    left: 40px;
+}
+.containerFiveHead2{
+    font-size: 32px;
+    color:#5A5A5A;
+    position: absolute;
+    top: 100px;
+    font-weight: 300;
+    left: 40px;
+}
+.containerFivePara1{
+    height: 450px;
+    width: 900px;
+    background-color: #FED233;
+    position: absolute;
+    bottom: 150px;
+}
+.containerFivePara1Ulist{
+    top: 400px;
+    left: 50px;
+    position: absolute;
+    font-size: 24px;
+    color:#5A5A5A;;
+}
+.containerFiveSpan1{
+    height: 250px;
+    width: 250px;
+    border: 1px solid gray;
+    background-color: #FFFFFF;
+    position: absolute; 
+    top: 255px;
+    left: 650px;
+    filter: blur(2px);
+}
+.containerFiveSpan2{
+    height: 250px;
+    width: 250px;
+    border: 1px solid gray;
+    background-color: #FFFFFF;
+    position: absolute; 
+    top: 520px;
+    left: 650px;
+    filter: blur(2px);
+}
+.containerFiveSpan3{
+    height: 250px;
+    width: 250px;
+    border: 1px solid gray;
+    position: absolute; 
+    top: 255px;
+    left: 920px;
+    filter: blur(2px);
+}
+.containerFiveSpan4{
+    height: 250px;
+    width: 250px;
+    border: 1px solid gray;
+    position: absolute; 
+    top: 520px;
+    left: 920px;
+    filter: blur(2px);
+}
+.containerFiveSpan5{
+    height: 250px;
+    width: 250px;
+    border: 1px solid gray;
+    position: absolute; 
+    top: 255px;
+    left: 1190px;
+    filter: blur(2px);
+}
+.containerFiveSpan6{
+    height: 250px;
+    width: 250px;
+    border: 1px solid gray;
+    position: absolute; 
+    top: 520px;
+    left: 1190px;
+    /* opacity: 0.1px; */
+    filter: blur(2px);
+    
+    
+}
+.containerSix{
+    height: 100vh;
+    width: 100vw;
+    /* border: 5px solid red; */
+    position: relative;
+}
+.containerSixHead1{
+     font-size: 40px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-weight: 700;
+     font-style: italic;
+     position: absolute;
+     left: 50px;
+}
+.containerSixImg1{
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+.containerSixImg2{
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    top: 120px;
+    left: 850px;
+}
+.containerSixHead2Left{
+    position: absolute;
+    top: 530px;
+    left: 50px;
+    font-size: 32px;
+    color:#5A5A5A;
+}
+.containerSixHead2Right{
+    position: absolute;
+    top: 530px;
+    left: 850px;
+    font-size: 32px;
+    color:#5A5A5A;
+}
+.containerSixPara1{
+    position: absolute;
+    top: 580px;
+    left: 50px;
+    font-size: 24px;
+    color:#5A5A5A;
+}
+.containerSixPara2{
+    position: absolute;
+    top: 580px;
+    left: 850px;
+    font-size: 24px;
+    color:#5A5A5A;
+}
+.containerSeven{
+    height: 100vh;
+    width: 100vw;
+    /* border: 5px solid blue; */
+    position: relative;
+}
+.containerSevenImg1{
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    left: 50px;
+}
+.containerSevenImg2{
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    left: 850px;
+}
+.containerSevenHead2Left{
+    position: absolute;
+    top: 410px;
+    left: 50px;
+    font-size: 32px;
+    color:#5A5A5A;
+}
+.containerSevenHead2Right{
+    position: absolute;
+    top: 410px;
+    left: 850px;
+    font-size: 32px;
+    color:#5A5A5A;
+}
+.containerSevenPara1{
+    position: absolute;
+    top: 470px;
+    left: 50px;
+    font-size: 24px;
+    color:#5A5A5A;
+}
+.containerSevenPara2{
+    position: absolute;
+    top: 470px;
+    left: 850px;
+    font-size: 24px;
+    color:#5A5A5A;
+}
+.containerSevenHead1{
+    position: absolute;
+    left: 50px;
+    top: 650px ;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.containerSevenHead2Bottom{
+    font-size: 32px;
+    color:#5A5A5A;
+    position: absolute;
+    top: 750px;
+    font-weight: 300;
+    left: 50px;
+}
+.containerEight{
+    height: 100vh;
+    width: 100vw;
+    /* border: 5px solid red; */
+    position: relative;
+}
+.containerEightPara1{
+    height: 750px;
+    width: 700px;
+    background-color: #FED233;
+    position: absolute;
+    
+}
+.containerEightPara1InsidePara1{
+    height: 150px;
+    width: 450px;
+    background-color: rgb(250,231,181);
+    opacity: 0.8;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 17px;
+}
+.one,
+.two,
+.three,
+.four{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -20px;
+    top: 20px;
+}
+.containerEightPara1InsidePara2{
+    height: 150px;
+    width: 450px;
+    background-color: rgb(250,231,181);
+    opacity: 0.8;
+    position: absolute;
+    top: 220px;
+    left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 17px;
+}
+.containerEightPara1InsidePara3{
+    height: 150px;
+    width: 450px;
+    background-color: rgb(250,231,181);
+    opacity: 0.8;
+    position: absolute;
+    top: 390px;
+    left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 17px;
+}
+.containerEightPara1InsidePara4{
+    height: 150px;
+    width: 450px;
+    background-color: rgb(250,231,181);
+    opacity: 0.8;
+    position: absolute;
+    top: 560px;
+    left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 17px;
+}
+.containerEightDiv{
+    height: 650px;
+    width: 550px;
+    border: 1px solid gainsboro;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 600px;
+    top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow:   2px 2px 2px rgba(90, 90, 90, 0.2);
+    
+    
+}
+.containerEightHead1{
+    text-align: center;
+    top:35px ;
+    position: absolute;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.containerEightPara2{
+    height: 300px;
+    width: 300px;
+    background-color: #FED233;
+    position: absolute;
+    bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerEightPara2Img1{
+    position: absolute;
+    bottom: 0px;
+}
