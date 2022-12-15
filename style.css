@@ -12,7 +12,7 @@
 
 .containerOne {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
@@ -150,7 +150,7 @@ padding-right: 25%;
 
 .containerTwo {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     /* border: 5px solid black; */
     position: relative;
 }
@@ -205,7 +205,7 @@ padding-right: 25%;
 
 .containerThree{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     /* border: 5px solid blue; */
     position: relative;
 }
@@ -259,7 +259,7 @@ padding-right: 25%;
 }
 .containerFour {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     /* border: 5px solid rgb(241, 76, 76); */
     position: relative;
 }
@@ -354,7 +354,7 @@ padding-right: 25%;
 }
 .containerFive{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     /* border: 5px solid blue; */
     position: relative;
 }
@@ -375,11 +375,12 @@ padding-right: 25%;
     left: 40px;
 }
 .containerFivePara1{
-    height: 450px;
+    height: 500px;
     width: 900px;
     background-color: #FED233;
     position: absolute;
-    bottom: 150px;
+    bottom: -100px;
+    padding-bottom: 250px;
 }
 .containerFivePara1Ulist{
     top: 400px;
@@ -449,11 +450,12 @@ padding-right: 25%;
 }
 .containerSix{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     /* border: 5px solid red; */
     position: relative;
 }
 .containerSixHead1{
+    margin-top: 120px;
      font-size: 40px;
      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      font-weight: 700;
@@ -462,18 +464,18 @@ padding-right: 25%;
      left: 50px;
 }
 .containerSixImg1{
-    height: 400px;
-    width: 700px;
+    height: 300px;
+    width: 600px;
     position: absolute;
-    top: 120px;
+    top: 180px;
     left: 50px;
 }
 .containerSixImg2{
-    height: 400px;
-    width: 700px;
+    height: 300px;
+    width: 600px;
     position: absolute;
-    top: 120px;
-    left: 850px;
+    top: 180px;
+    left: 700px;
 }
 .containerSixHead2Left{
     position: absolute;
@@ -485,11 +487,12 @@ padding-right: 25%;
 .containerSixHead2Right{
     position: absolute;
     top: 530px;
-    left: 850px;
+    left: 750px;
     font-size: 32px;
     color:#5A5A5A;
 }
 .containerSixPara1{
+    width: 50%;
     position: absolute;
     top: 580px;
     left: 50px;
@@ -497,55 +500,58 @@ padding-right: 25%;
     color:#5A5A5A;
 }
 .containerSixPara2{
+    width: 50%;
     position: absolute;
     top: 580px;
-    left: 850px;
+    left: 750px;
     font-size: 24px;
     color:#5A5A5A;
 }
 .containerSeven{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     /* border: 5px solid blue; */
     position: relative;
 }
 .containerSevenImg1{
-    height: 400px;
-    width: 700px;
+    top:200px;
+    height: 300px;
+    width: 600px;
     position: absolute;
     left: 50px;
 }
 .containerSevenImg2{
-    height: 400px;
-    width: 700px;
+    top:200px;
+    height: 300px;
+    width: 600px;
     position: absolute;
-    left: 850px;
+    left: 750px;
 }
 .containerSevenHead2Left{
     position: absolute;
-    top: 410px;
+    top: 510px;
     left: 50px;
     font-size: 32px;
     color:#5A5A5A;
 }
 .containerSevenHead2Right{
     position: absolute;
-    top: 410px;
-    left: 850px;
+    top: 510px;
+    left: 750px;
     font-size: 32px;
     color:#5A5A5A;
 }
 .containerSevenPara1{
     position: absolute;
-    top: 470px;
+    top: 570px;
     left: 50px;
     font-size: 24px;
     color:#5A5A5A;
 }
 .containerSevenPara2{
     position: absolute;
-    top: 470px;
-    left: 850px;
+    top: 570px;
+    left: 750px;
     font-size: 24px;
     color:#5A5A5A;
 }
@@ -567,8 +573,9 @@ padding-right: 25%;
     left: 50px;
 }
 .containerEight{
+    margin-top:300px;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     /* border: 5px solid red; */
     position: relative;
 }
